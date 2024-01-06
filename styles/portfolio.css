@@ -78,7 +78,19 @@ nav a {
 .banner-description{
     margin-bottom: 30px;
 }
-/* about section  */
+
+            /* Main Section */
+
+main{
+    max-width: 1140px;
+    
+     margin: 0px auto;
+}
+
+
+
+
+            /* about section  */
 .about{
     padding: 130px;
     Copy
@@ -98,4 +110,15 @@ nav a {
     font-weight: 400;
     color: #757575;
     
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do{
+    padding: 30px 115px;
 }
