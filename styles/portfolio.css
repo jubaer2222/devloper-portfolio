@@ -174,3 +174,35 @@ font-weight: 700;
     font-size: 25px;
     font-weight: 700;
     }
+    .download-cv{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+            /* Footer Styles */
+ footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 300px 130px 220px;
+    background-color: #FFF8F3;
+
+ }           
+
+ .footer-column{
+    width: 50%;
+ }
+
+ .contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0px;
+    width: 70%;
+ }
+ .social-links{
+    gap: 24px;
+ }
